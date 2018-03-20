@@ -1,2 +1,2 @@
 # team-exercise
-This is tam exercise
+This is team exercise
