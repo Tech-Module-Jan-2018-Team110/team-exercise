@@ -11,13 +11,13 @@ namespace Problem_1.Debit_Card_Number
         static void Main(string[] args)
         {
 			//We receive 4 integer from the console
-            int num1 = int.Parse(Console.ReadLine());
+            int num = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
 
 			//Print the integers on the console in 4-digit debit card format
-            Console.WriteLine($"{num1:D4} {b:D4} {c:D4} {d:D4}");
+            Console.WriteLine($"{num:D4} {b:D4} {c:D4} {d:D4}");
         }
     }
 }
